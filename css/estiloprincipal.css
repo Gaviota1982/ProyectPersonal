@@ -1,0 +1,29 @@
+
+.navbar{
+    display: flex;
+    font-family: arial, verdana, tahoma;
+    background-color:grey;
+    color: white;
+    font-size: 1.5em;
+    margin: 0;
+}
+.listas{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.list{
+    display: inline-block;
+    padding: 0 1.2em;
+    cursor: pointer;
+}
+.list:hover{
+    border-bottom: 2px solid #ffff;
+    transition: 0.4s;
+}
+.contenedor h1{
+    text-align:center;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

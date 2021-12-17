@@ -1,0 +1,83 @@
+
+.navbar{
+    display: flex;
+    background-color:white;
+}
+.logoFor{
+    margin-left: 50px;
+
+}
+.logoMin{
+    margin-right: 50px;
+    
+}
+
+.titulo h1{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+h2 {
+    text-align: center;
+    font-size: 1.3em;
+    height: 35px;
+    margin-top: 1.3em;
+    
+    padding: 0px;
+}
+.contenedorFormu{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 3em;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+hr{
+    margin: 0;
+}
+#eti{
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    width: 200px;
+    margin-top: 1.5em;
+    margin-left: 20%;
+
+}
+input{
+    width: 250px;
+}
+
+.contenedorFormu .bt{
+    
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+footer{
+    margin-top: 15%;
+}
+
+@media (max-width: 750px) {
+    /* .navbar{
+        display: flex;
+    } */
+    
+    .logoFor{
+        margin-left: 5px;
+        /* background: url(/img/logo-for2.jpg); */
+        width: 75%;
+        height: 75%;
+    }
+    .logoMin{
+        
+        margin-right: 5px;
+        /* background: url(/img/logo-mpya2.jpg); */
+        width: 75%;
+        height: 75%;
+
+    }
+    
+}
